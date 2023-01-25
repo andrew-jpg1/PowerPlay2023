@@ -103,6 +103,10 @@ public class RobotCentricSample extends LinearOpMode{
                 claw.setPosition(.15); //open claw
             }
 
+            if (gamepad1.right_trigger);
+
+
+
             int liftCurrentPosition = liftMotor1.getCurrentPosition();
             int armCurrentPosition = arm.getCurrentPosition();
 
